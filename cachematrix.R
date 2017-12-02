@@ -43,25 +43,3 @@ cacheSolve <- function(x, ...) {
 }
 
 
-
-A <- matrix( c(5, 1, 0,
-               3,-1, 2,
-               4, 0,-1), nrow=3, byrow=TRUE)
-
-
-b<-makeCacheMatrix(A)
-
-cacheSolve(b)
-
-
-
-
-
-
-
-
-
-
-
-
-
